@@ -1,0 +1,22 @@
+{
+  "name": "vue-styleguidist-example-docgen-nuxt",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "styleguide": "concurrently \"vue-docgen --watch\" \"nuxt\""
+  },
+  "dependencies": {
+    "@nuxt/content-theme-docs": "^0.10.2",
+    "concurrently": "^5.3.0",
+    "nuxt": "^2.15.6",
+    "remark-plugin-vue-live": "^1.0.5",
+    "vue-docgen-cli": "^4.39.0",
+    "vue-inbrowser-compiler-utils": "^4.39.0",
+    "vue-live": "^1.16.0",
+    "vue-simple-docgen-loader": "^4.39.0"
+  }
+}
