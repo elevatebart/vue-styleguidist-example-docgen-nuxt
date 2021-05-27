@@ -7,7 +7,8 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "styleguide": "concurrently \"vue-docgen --watch\" \"nuxt\""
+    "styleguide": "concurrently \"vue-docgen --watch\" \"nuxt\"",
+    "styleguide:build": "vue-docgen && nuxt generate"
   },
   "dependencies": {
     "@nuxt/content-theme-docs": "^0.10.2",
